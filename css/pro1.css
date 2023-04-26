@@ -1,0 +1,75 @@
+.pro1{
+	background-image: url('../img/home/slider.png');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+}
+.pro-service{
+	padding: 5rem 0rem;
+}
+.service-head{
+	padding: 0rem 0rem;
+}
+.pro-padding{
+	margin-right: 30%;
+}
+
+/*pro1 end*/
+
+/*pro2 start*/
+.particuiler-s2 p{
+	color: #000;
+}
+
+
+.pro2-bg-img{
+	background-image: url('../img/pro1/pro2-bg.png');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+.pro2-img{
+	background-image: url('../img/home/home3.png');
+	
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+}
+
+/*pro3 start*/
+.pro3-bg-img{
+	background-image: url('../img/pro1/pro3-bg.png');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
+
+/*contact*/
+.contact-text{
+	padding: 2rem;
+	border-radius: 2rem;
+
+}
+.contact-text ul{
+	align-items: center;
+	justify-content: space-between;
+	padding: 0rem 3rem; 
+}
+/*.contact-text ul li a{
+	padding: 2rem;
+}*/
+.pro-padding input{
+	padding: 1.5rem 0.5rem;
+	margin: 1rem 0rem;
+	background: #C7C8C9;
+}
+textarea{
+	background: #C7C8C9;
+	color: #000;
+}
+.cb{
+/*	padding-left: 20%;*/
+}
