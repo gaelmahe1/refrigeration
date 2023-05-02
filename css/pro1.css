@@ -31,7 +31,7 @@
 	height: 70vh;
 }
 .pro2-img{
-	background-image: url('../img/home/home3.png');
+	background-image: url('../img/pro1/homebg.svg');
 	
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 
 /*pro3 start*/
 .pro3-bg-img{
-	background-image: url('../img/pro1/pro3-bg.png');
+	background-image: url('../img/pro1/pro1bg.svg');
 	
 	background-size: cover;
 	background-repeat: no-repeat;

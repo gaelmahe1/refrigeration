@@ -122,7 +122,7 @@ ul li a button{
 	background: #FFF !important;
 }
 .header-text{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Jockey One', sans-serif;
 	font-size: 2.3rem;
 	font-weight: 700;
 }
@@ -149,7 +149,7 @@ ul li a button{
 	padding-right: 3rem;
 }
 .padding-top{
-	padding-top:17%;
+	padding-top:15%;
 }
 .padding-top20{
 	padding-top: 2rem;
@@ -250,10 +250,11 @@ ul li a button{
 	color: #FFF;
 }
 .service-box{
-	background: #093CB2;
-	border-radius: 3rem;
-	padding: 3rem 0rem;
-	margin: 5rem;
+	background: #194099;
+	border-radius: 2.125rem;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+	padding: 2rem 0rem;
+	margin: 7rem;
 }
 .service-head{
 	font-weight: 600;
@@ -276,10 +277,11 @@ ul li a button{
 
 }
 .service-detail-box{
-	background: #FFF;
+	background: #F4F4F4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 	padding: 2rem;
 	color: #093CB2;
-	border-radius: 2.5rem;
+	border-radius: 5.125rem;
 }
 .service-bg-img{
 		background-image: url('../img/home/home2.png');
