@@ -34,9 +34,9 @@
 	html {
   		font-size: 45%; 
 	}
-	.rimg img{
+	/* .rimg img{
 		margin: 2rem;
-	}
+	} */
 	.home-bg1{
 		height: 50vh;
 	}
@@ -209,29 +209,68 @@
 }
 @media (max-width: 499px) {
 
-	.black{
-		font-size: 2.5rem;
-		margin: 0;
-    	margin-right: 5%;
+	.hide {
+		display: none;
 	}
+
+	#logo {
+		width: 50%;
+	}
+
+	.resim{
+		width: 100%;
+		margin-left: 3%;
+	}
+
+	.black{
+		font-size: 1.9rem;
+		margin: 0;
+	}
+	.black2{
+		margin-right: 8%;
+	}
+
+	.cform{
+		margin-left: 5%;
+	}
+	.cmap{
+		margin-left: 1%;
+	}
+
 	#main {
 		width:50%;
+	}
+	#mainc{
+		width: 57%;
 	}
 	#title {
 		width:50%;
 		margin: 0;
-    	margin-left: 8%;
+    	margin-left: 2%;
+	}
+	#second {
+		width:50%;
+		margin: 0;
+    	margin-left: 10%;
 	}
 	#fith{
 		width:50%;
 		margin: 0;
-		margin-left: 18%;
+		margin-left: 15%;
 	}
 	
+	.eximg{
+		margin-right: 11%;
+	}
+
+	.foot{
+		width: 50%;
+	}
+
 	.service-box {
-		width:43%;
+		width:49%;
 		margin:0;
-		margin-left: 142px;
+		margin-left: 99px;
 		margin-bottom: 21px;
 
 	}
@@ -241,7 +280,7 @@
 
 	.service-detail-box {
 		margin: 0;
-		margin-right: 5%;
+		margin-right: 9%;
 		padding: 2%;
 	}
 
@@ -255,31 +294,31 @@
 		padding-top: 10%;
 	}
 	.home-bg1{
-				height: 30vh;
+				height: 37vh;
 				}
 			/*	particuiler */
 			.parti{
-				height: 42vh;
+				height: 62vh;
 			}
 		/*	contact*/
 			
 			    .contact-bg-sm{
-			    	height: 32vh;
+			    	height: 45vh;
 			    }
 
 		/*	    pro1*/
 				
 				.pro1{
-					height:32vh;
+					height:40vh;
 				}
 
 			/*		pro2*/
 			.pro2-bg-img{
-				height: 42vh;
+				height: 62vh;
 			}
 			/*	pro3*/
 			.pro3-bg-img{
-				height: 42vh;
+				height: 62vh;
 			}
 			.header-ico{
 				opacity: 0;

@@ -34,8 +34,10 @@ h1,h2,h3{
 	color: #093CB2;
 	font-weight: 700;
 }
+
 .blue{
 	color: #093CB2;
+	font-weight: 500;
 
 }
 .justify-content-space-around{
@@ -351,6 +353,7 @@ ul li a button{
 
 .r-bold{
 	font-weight: 700;
+	font-family: 'Jockey One', sans-serif;
 }
 
 
@@ -455,3 +458,10 @@ ul li a button{
 .dropdown:hover .dropdown-content {display: block;}
 
 
+.container-fluid {
+	--bs-gutter-x: 0.5rem;
+}
+
+.header-text{
+	font-size: 2rem;
+}
