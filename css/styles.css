@@ -146,6 +146,7 @@ ul li a button{
 .medium-blue{
 	font-size: 2.8rem;
 	line-height: 1.2;
+	margin-top: 30%;
 }
 .padding-right30{
 	padding-right: 3rem;
@@ -459,9 +460,13 @@ ul li a button{
 
 
 .container-fluid {
-	--bs-gutter-x: 0.5rem;
+	--bs-gutter-x: 1.5rem;
+	display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
 }
 
 .header-text{
 	font-size: 2rem;
 }
+

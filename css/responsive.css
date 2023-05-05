@@ -209,12 +209,24 @@
 }
 @media (max-width: 499px) {
 
+
+.modif {
+	display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
 	.hide {
 		display: none;
 	}
 
 	#logo {
 		width: 50%;
+	}
+
+
+	.medium-blue{
+		margin-top: 20%;
 	}
 
 	.resim{
@@ -270,7 +282,7 @@
 	.service-box {
 		width:49%;
 		margin:0;
-		margin-left: 99px;
+		margin-left: 89px;
 		margin-bottom: 21px;
 
 	}
