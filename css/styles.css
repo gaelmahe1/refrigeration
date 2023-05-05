@@ -459,14 +459,15 @@ ul li a button{
 .dropdown:hover .dropdown-content {display: block;}
 
 
-.container-fluid {
-	--bs-gutter-x: 1.5rem;
-	display: flex;
-    flex-wrap: nowrap;
-    align-items: baseline;
-}
 
 .header-text{
 	font-size: 2rem;
 }
+
+.container-fluid {
+	display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch!important;
+	--bs-gutter-x: 0.5rem;
+	}
 
