@@ -30,7 +30,7 @@
 	}
  }
 
-@media (max-width: 1199.98px) { 
+@media (max-width: 1290.98px) { 
 	html {
   		font-size: 45%; 
 	}
@@ -38,7 +38,7 @@
 		margin: 2rem;
 	} */
 	.home-bg1{
-		height: 50vh;
+		height: 57vh;
 	}
 	/*	particuiler */
 	.parti{
@@ -53,7 +53,7 @@
 		height: 55vh;
 	}
 	.pro3-bg-img{
-		height: 50vh;
+		height: 63vh;
 	}
  }
 @media (max-width: 991.98px) { 
