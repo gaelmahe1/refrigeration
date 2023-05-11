@@ -10,6 +10,14 @@
 	html {
   		font-size: 53%; 
 	}
+
+	.service-detail-box{
+		width: 363px;
+		padding: 0rem 2rem;
+    	height: 130px;
+		margin: 0;
+	}
+
 	.home-bg1{
 		height: 63vh;
 	}
@@ -35,6 +43,7 @@
 	.service-detail-box{
 		width: 300px;
     	height: 130px;
+		padding: 2rem;
 	}
 
 
