@@ -197,6 +197,7 @@ ul li a button{
 }
 
 .top-btn-2:hover{
+	border: none !important;
 	background: #FFDE00 !important;
 }
 .bg-btn1:hover{
@@ -422,13 +423,13 @@ ul li a button{
 	display: inline;
 }
 
-.dropbtn {
- /* background-color: #04AA6D;
+/* .dropbtn {
+ background-color: #04AA6D;
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;*/
-}
+  border: none;
+}  */
 
 .dropdown {
   position: relative;
@@ -477,7 +478,7 @@ ul li a button{
 	}
 
 	.fuji {
-		margin-right: 9% !important;
+		margin-right: 12% !important;
 	}
 
 	.check1 {
