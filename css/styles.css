@@ -151,7 +151,7 @@ ul li a button{
 	padding-right: 3rem;
 }
 .padding-top{
-	padding-top:15%;
+	padding-top:12%;
 }
 .padding-top20{
 	padding-top: 2rem;
@@ -262,7 +262,7 @@ ul li a button{
 .service-head{
 	font-weight: 600;
 	font-size: 1.8rem;
-	padding-top: 6%;
+	padding-top: 6% !important;
 }
 .service-button{
 	margin: 3.5rem 0rem;
@@ -346,6 +346,7 @@ ul li a button{
 /*button section*/
 .padding-button{
 	padding: 1.5rem 2.5rem;
+	margin: 3% 0;
 }
 
 /*refrigerator image section start*/
@@ -438,8 +439,11 @@ ul li a button{
 
 .dropdown-content {
   display: none;
+  text-align: center;
   position: absolute;
-  background-color: #FFFF;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
   width: 100%;
   padding: 0.5rem;
 /*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
@@ -491,3 +495,16 @@ ul li a button{
 	.check2 {
 		margin-bottom: 1%;
 	}
+
+	.item2 {
+		text-transform: uppercase;
+	}
+
+	.fix{
+		font-size: 24px;
+	}
+
+	.fix1{
+		padding-top: 4.%;
+	}
+

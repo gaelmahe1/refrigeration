@@ -12,11 +12,14 @@
 	}
 
 	.service-detail-box{
-		width: 363px;
+		width: 316px;
 		padding: 0rem 2rem;
     	height: 130px;
 		margin: 0;
 	}
+
+
+	
 
 	.home-bg1{
 		height: 63vh;
@@ -36,12 +39,16 @@
 	.pro3-bg-img{
 		height: 70vh;
 	}
+
+	#logo {
+		margin-left: 16%;
+	}
  }
 
 @media (max-width: 1290.98px) { 
 
 	.service-detail-box{
-		width: 300px;
+		width: 265px;
     	height: 130px;
 		padding: 2rem;
 	}
@@ -71,8 +78,18 @@
 	.pro3-bg-img{
 		height: 70vh;
 	}
+	
+	#logo {
+		margin-left: 9%;
+	}
  }
 @media (max-width: 991.98px) { 
+	.top{
+		display: inline;
+	}
+	.side{
+		display: none;
+	}
 
 	.map {
 		margin-right: 12%;
@@ -138,12 +155,19 @@
  }
 
 @media (max-width: 767.98px) { 
+	.top{
+		display: none;
+	}
+	.side{
+		display: inline;
+	}
+
 	.home-bg1{
-		height: 35vh;
+		height: 55vh;
 	}
 	/*	particuiler */
 	.parti{
-		height: 50vh;
+		height: 54vh;
 	}
 /*	contact*/
 	.footer-icon {
@@ -159,7 +183,7 @@
 			text-align: center;
 		}
 		.pro1{
-			height:35vh;
+			height:45vh;
 		}
 
 	/*		pro2*/
@@ -185,6 +209,8 @@
 	.footer-icon2{
 		display: flex !important;
 	}
+
+	
 	
 
 		
@@ -250,18 +276,18 @@
 
 
 	
-	.hide {
+	/* .hide {
 		display: none;
-	}
+	} */
 
 	#logo {
-		width: 50%;
+		width: 100%;
 	}
 
 
-	.medium-blue{
+	/* .medium-blue{
 		margin-top: 9%;
-	}
+	} */
 
 	.resim{
 		width: 100%;
@@ -325,6 +351,7 @@
 	}
 
 	.service-detail-box {
+		width: auto;
 		margin: 0;
 		margin-right: 9%;
 		padding: 2%;
@@ -372,5 +399,10 @@
 			html, body {
 			    max-width: 100%;
 			    overflow-x: hidden;
+			}
+
+			.img-fluid {
+				width: auto;
+				height: auto;
 			}
 }
