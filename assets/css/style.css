@@ -19,15 +19,15 @@ strong { font-weight: 500; }
 
 .sidebar {
 	width: 250px; height: 100vh; position: fixed; top: 0; left: -255px; z-index: 999; 
-	background: #333; color: #fff; transition: all .3s; box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
+	background: #FFF; color: #fff; transition: all .3s; box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 	text-align: left;
 }
 
 .sidebar.active { left: 0; }
 
 .dismiss {
-	width: 35px; height: 16px; position: absolute; top: 10px; right: 10px; transition: all .3s; 
-	background: #444; border-radius: 4px; text-align: center; line-height: 35px; cursor: pointer;
+	width: 35px; height: 16px; position: absolute; top: 22px; right: 10px; transition: all .3s; 
+	background: #194099; border-radius: 4px; text-align: center; line-height: 35px; cursor: pointer;
 }
 
 .dismiss:hover, .dismiss:focus { background: #555; color: #fff; }
@@ -43,11 +43,11 @@ strong { font-weight: 500; }
 	text-indent: -999999px;
 }
 
-.sidebar ul.menu-elements { padding: 10px 0; border-bottom: 1px solid #444; transition: all .3s; }
+.sidebar ul.menu-elements { padding: 10px 0; border-bottom: 1px solid #FFF; transition: all .3s; }
 
 .sidebar ul li a {
 	display: block; padding: 10px 20px;
-	border: 0; color: #fff;
+	border: 0; color: #194099;
 }
 .sidebar ul li a:hover,
 .sidebar ul li a:focus,
@@ -61,7 +61,7 @@ strong { font-weight: 500; }
 	color: #fff;
 }
 
-.sidebar ul ul a { background: #444; padding-left: 30px; font-size: 14px; }
+.sidebar ul ul a { background: #FFF; padding-left: 30px; font-size: 14px; }
 
 .sidebar ul ul li.active > a { background: #555; }
 
