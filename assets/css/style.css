@@ -52,12 +52,12 @@ strong { font-weight: 500; }
 .sidebar ul li a:hover,
 .sidebar ul li a:focus,
 .sidebar ul li.active > a:hover,
-.sidebar ul li.active > a:focus { outline: 0; background: #555; color: #fff; }
+.sidebar ul li.active > a:focus { outline: 0; background: #E9C404; color: #fff; }
 
 .sidebar ul li a i { margin-right: 5px; }
 
 .sidebar ul li.active > a, a[aria-expanded="true"] {
-	background: #444;
+	background: #194099;
 	color: #fff;
 }
 
