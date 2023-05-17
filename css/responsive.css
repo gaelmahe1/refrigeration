@@ -305,7 +305,8 @@
 		margin-left: 5%;
 	}
 	.cmap{
-		margin-left: 1%;
+		margin-left: -5%;
+    	width: 110%;
 	}
 
 	#main {
