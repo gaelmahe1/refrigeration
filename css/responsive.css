@@ -427,4 +427,8 @@
 				width: auto;
 				height: auto;
 			}
+
+			.fix {
+				font-size: 14px;
+			}
 }
