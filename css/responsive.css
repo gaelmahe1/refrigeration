@@ -41,7 +41,7 @@
 	}
 
 	#logo {
-		margin-left: 16%;
+		margin-left: 22%;
 	}
  }
 
@@ -82,8 +82,22 @@
 	#logo {
 		margin-left: 9%;
 	}
+
+	.pro-service {
+		margin-left: 5%;
+	}
+
+
+
  }
 @media (max-width: 991.98px) { 
+	
+	
+	.cmap {
+		margin-left: 5%;
+	}
+	
+	
 	.top{
 		display: inline;
 	}
@@ -99,6 +113,7 @@
 	.fuji {
 		margin: 0 !important;
 	}
+
 
 	.service-detail-box{
 		width: 683px;
@@ -155,6 +170,13 @@
  }
 
 @media (max-width: 767.98px) { 
+	
+	
+	.cmap {
+		margin-left: -1%;
+	}
+	
+	
 	.top{
 		display: none;
 	}

@@ -346,7 +346,7 @@ ul li a button{
 /*button section*/
 .padding-button{
 	padding: 1.5rem 2.5rem;
-	margin: 3% 0;
+	margin-top: 5%;
 }
 
 /*refrigerator image section start*/
@@ -508,3 +508,16 @@ ul li a button{
 		padding-top: 4.%;
 	}
 
+	.fix5 {
+		margin: 0 !important;
+		margin-bottom: 5% !important;
+	}
+
+	.fix4 {
+		margin: 0 !important;
+		margin-bottom: 2% !important;
+	}
+
+	.yellow:hover {
+		color: #E9C404 !important;
+}
