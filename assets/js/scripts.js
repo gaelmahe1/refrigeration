@@ -129,3 +129,23 @@ jQuery(document).ready(function() {
 	});
 	
 });
+
+
+
+
+function toggleImage(element) {
+	if (window.innerWidth < 768) { // Only execute the code on mobile devices
+	  const images = Array.from(document.getElementsByClassName('image'));
+  
+	  // Get the index of the clicked image
+	  const index = images.indexOf(element);
+  
+	  // Toggle the "hide" class for all images except the clicked one
+	  images.forEach((image, i) => {
+		if (i !== index) {
+		  image.classList.toggle('hide');
+		}
+	  });
+	}
+  }
+  

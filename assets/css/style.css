@@ -4,6 +4,7 @@ strong { font-weight: 500; }
 
 
 
+
 .medium-paragraph { font-size: 18px; line-height: 34px; }
 
 ::-moz-selection { background: #f35b3f; color: #fff; text-shadow: none; }
@@ -58,6 +59,7 @@ strong { font-weight: 500; }
 	outline: 0; 
 	background: #194099; color: #fff;
 }
+
 
 .sidebar .normal2 ul li a:hover {
 	outline: 0 !important; 
