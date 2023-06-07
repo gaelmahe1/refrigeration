@@ -279,7 +279,7 @@ padding-top:23%;
 /*	contact*/
 .contact-text ul li {
 	/* width: 2rem; */
-	font-size: 7.6px;
+	font-size: 7px;
 	}
 
 
@@ -529,7 +529,7 @@ flex-wrap: nowrap;
 		}
 
 		.iw {
-			width: 25px!important;
+			width: 27px!important;
 			height: auto!important;
 		}
 
