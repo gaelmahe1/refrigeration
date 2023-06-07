@@ -1,0 +1,208 @@
+.info {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  max-width: 70ch;
+  margin: 2em auto;
+  padding: 0 1.6rem;
+}
+
+.info a {
+  font-weight: 600;
+  color: rgb(0, 115, 119);
+}
+
+
+
+.container wee-slider {
+  margin: auto;
+}
+
+wee-slider {
+  --wee-slide-align: start;
+  --wee-visible-slides-mobile: 1.5;
+  --wee-visible-slides-desktop: 3.5;
+  --wee-visible-slides: var(--wee-visible-slides-mobile);
+  --wee-slide-gap: 10px;
+  --wee-navdot-color: rgb(0,0,0);
+  --wee-transition: ease-in-out 200ms;
+  --wee-slide-width: calc(((100% - (var(--wee-slide-gap) * (var(--wee-visible-slides) - 1))) / var(--wee-visible-slides)));
+}
+
+@media screen and (min-width: 990px) {
+  wee-slider {
+    --wee-visible-slides: var(--wee-visible-slides-desktop);
+  }
+}
+
+wee-slider[data-align="start"] { --wee-slide-align: start; }
+wee-slider[data-align="center"] { --wee-slide-align: center; }
+wee-slider[data-align="end"] { --wee-slide-align: end; }
+
+wee-slider {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+wee-slider:not(.loaded) .wee-slider__buttons,
+wee-slider:not(.loaded) .wee-slider__navdots {
+  display: none;
+}
+wee-slider.loaded .wee-slider ::-webkit-scrollbar {
+  display: none;
+}
+wee-slider.loaded .wee-slider {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+wee-slider .wee-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+wee-slider .wee-slider__slides {
+  display: flex;
+  gap: var(--wee-slide-gap);
+  padding: 0;
+  overflow: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+wee-slider .wee-slider__slide {
+  display: block;
+  min-width: var(--wee-slide-width);
+  background: pink;
+  scroll-snap-align: var(--wee-slide-align);
+  scroll-margin-left: 0;
+  scroll-margin-right: 0;
+}
+
+wee-slider .wee-slider__buttons button {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+wee-slider .wee-slider__buttons button:not([disabled]) {
+  cursor: pointer;
+}
+
+wee-slider[data-buttons-on-hover="true"] .wee-slider__buttons {
+  opacity: 0;
+  transition: opacity ease-in-out 200ms;
+}
+
+@media (hover: hover) {
+  wee-slider[data-buttons-on-hover="true"]:hover .wee-slider__buttons {
+    opacity: 1;
+  }
+}
+
+wee-slider .wee-slider__button-next {
+  right: 0;
+}
+
+wee-slider .wee-slider__navdots {
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+wee-slider .wee-slider__navdot {
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+
+wee-slider .wee-slider__navdot:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  height: 8px;
+  width: 8px;
+  background: var(--wee-navdot-color);
+  border-radius: 50%;
+}
+
+wee-slider .wee-slider__navdot:hover:after {
+  scale: 1.2;
+}
+
+wee-slider .wee-slider__navdot:not(.visible) {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* DEMO CSS */
+
+wee-slider .wee-slider__slide {
+  height: auto;
+  background: none;
+  opacity: 1;
+}
+
+wee-slider .slide-content {
+  position: relative;
+  height: 0;
+  padding-bottom: 80%;
+}
+
+wee-slider .slide-content > img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity ease-in-out 80ms;
+}
+
+wee-slider.loaded .wee-slider__slide:not(.visible) img {
+  opacity: 0.5;
+}
+
+wee-slider .wee-slider__buttons button {
+  margin: 0 10px;
+  border: none;
+  font-size: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 24px;
+  border-radius: 50%;
+  transition: scale ease 100ms;
+}
+
+@media (hover: hover) {
+  wee-slider .wee-slider__buttons button:hover {
+    scale: 1.1;
+  }
+}
+
+wee-slider .wee-slider__buttons button:before {
+  content: url("data:image/svg+xml,%3Csvg style='color: white' xmlns='http://www.w3.org/2000/svg' fill='currentColor' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z' fill='white'%3E%3C/path%3E%3C/svg%3E");
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  /*height: auto;*/
+}
+
+.wee-slider__button-prev:before {
+  translate: -60% -50%;
+  rotate: 90deg;
+}
+
+.wee-slider__button-next:before {
+  translate: -40% -50%;
+  rotate: 270deg;
+}

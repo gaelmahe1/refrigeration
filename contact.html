@@ -83,6 +83,7 @@
 	</header>
 
 	<!-- Header section end -->
+	<!-- Header section end -->
 	<header class="side">
 		
 
@@ -103,15 +104,23 @@
 
 					
 				</div>
-				<p style="padding: 2rem;border: 1px solid #FFF;margin: 2rem;text-align:center; "> 01 &nbsp; 60&nbsp;  29&nbsp;  68&nbsp;  42</p>
+				
+				<div class="resico">
+					<a href="tel:+33 (0) 1 60 29 68 42" class="move">
+						<img src="img/all/icon-phone.svg" alt="Phone icon" class="img-fluid">
+					  </a>
+						<a href="mailto:dliquet@dl-refrigeration.com"><img src="img/all/icon-msg1.png" alt="message icon" class="footer-icon">
+					 <img src="img/all/icon-mail.svg" alt="Mail icon" class="img-fluid">
+						 </a>
+						</div>
 				<ul class="list-unstyled menu-elements">
 					<li class="active">
-						<a class="scroll-link" href="particulier.html"> Particulier</a>
+						<a class="scroll-link parlink btn-primary" href="particulier.html" style="color: #FFF !important;"> Particulier</a>
 					</li>
-					
+					<br>
 					<li class="normal2">
-						<a href="#otherSections" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" role="button" aria-controls="otherSections">
-							<i class="fas fa-sync"></i>Professionnel
+						<a href="#otherSections" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle btn-secondary y-f" role="button" aria-controls="otherSections" style="color: #FFF !important;">
+							<i class="fas fa-sync pro-link"></i>Professionnel
 						</a>
 						<ul class="collapse list-unstyled" id="otherSections">
 							<li>
@@ -125,6 +134,7 @@
 					<li>
 						<a class="scroll-link" href="contact.html">Contact</a>
 					</li>
+					
 				</ul>
 				
 
@@ -173,7 +183,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-left padding-top">
 					
-					<img src="img/all/cdl1.svg" alt="background image" class="img-fluid" id="mainc">
+					<a href="index.html"><img src="img/all/cdl1.svg" alt="background image" class="img-fluid" id="mainc"></a>
 					
 
 					
@@ -181,13 +191,14 @@
 
 					<div class="bg-dark-thin margin-top20 contact-text">
 						<ul class="d-flex">
-							<li> <a href="tel:+33 (0) 1 60 29 68 42"><img src="img/all/c2.svg" alt="phone icon" class="footer-icon img-fluid"></a> </li>
+							<li> <a href="tel:+33 (0) 1 60 29 68 42"><img src="img/all/c2.svg" alt="phone icon" class="footer-icon img-fluid ff2"></a> </li>
 							<li> +33 (0) 1 60 29 68 42</li>
-							<li> <a href="mailto:dliquet@dl-refrigeration.com"><img src="img/all/c3.svg" alt="mail icon" class="footer-icon img-fluid"></a> </li>
+							<li> <a href="mailto:dliquet@dl-refrigeration.com"><img src="img/all/c3.svg" alt="mail icon" class="footer-icon img-fluid ff2"></a> </li>
 							<li> dliquet@dl-refrigeration.com</li>
-							<li> <a href=""><img src="img/all/c.svg" alt="location icon" class="footer-icon img-fluid"></a> </li>
-							<li> Île-de-France & Oise <br>
+							<li> <a href="#"><img src="img/all/c.svg" alt="location icon" class="footer-icon img-fluid ff2 iw"></a> </li>
+							<li class="nothide">Île-de-France & Oise <br>
 Siège à Pontault-Combault (77)</li>
+							<li class="hide"> Île-de-France & Oise</li>
 
 						</ul>
 
@@ -207,18 +218,22 @@ Siège à Pontault-Combault (77)</li>
 			<div class="row cform">
 				<div class="col-lg-6 ">
 					<div class="pro-padding text-center">
-						<form class="form-data">
+						<form class="form-data" action="https://formsubmit.co/gael@web-fusion.tech" method="POST">
 						  <div class="form-row d-flex">
 						    
-						      <input type="text" class="form-control" placeholder="Nom" style="margin-right: 1rem;padding: 1rem;font-size: 1.8rem;">
+						      <input type="text" class="form-control" placeholder="Nom" style="margin-right: 1rem;padding: 1rem;font-size: 1.8rem;" name="name" required>
+							  <input type="hidden" name="_captcha" value="false">
+							  <input type="hidden" name="_subject" value="Nouveau Client!">
+							  <input type="hidden" name="_autoresponse" value="Thank you for your email, we will contact you shortly">
+							  <input type="hidden" name="_next" value="https://web-fusion.tech/merci.html">
 						    
 						    
-						      <input type="text" class="form-control" placeholder="Mail" style="padding: 1rem;font-size: 1.8rem;">
+						      <input type="email" name="email" class="form-control" placeholder="Mail" style="padding: 1rem;font-size: 1.8rem;" required>
 						    
 						  </div>
-						  <textarea cells="5" rows="5" style="width: 100%;padding: 1rem;font-size: 1.8rem;"  placeholder="Message"></textarea>
+						  <textarea name="Message" cells="5" rows="5" style="width: 100%;padding: 1rem;font-size: 1.8rem;"  placeholder="Message" required></textarea>
 						  <a href="" class="cb text-center">
-						  	<button class="btn btn-primary service-button btnl" style="color:#194099;border-color: #194099;">Envoyer</button>
+						  	<button class="btn btn-primary service-button btnl" style="color:#194099;border-color: #194099;" type="submit" target="_blank">Envoyer</button>
 						  </a>
 						</form>
 
@@ -261,7 +276,7 @@ Siège à Pontault-Combault (77)</li>
 					</ul>
 					<ul class="d-flex">
 						<li> <a href=""><img src="img/all/icon-locat.svg" alt="location logo" class="footer-icon"></a> </li>
-						<li> 27/29 Av. Charles Allain,77340 Pontault-Combault</li>
+						<li> 27/29 Av. Charles Allain,</br>77340 Pontault-Combault</li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 block2">

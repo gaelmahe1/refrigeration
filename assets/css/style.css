@@ -52,7 +52,7 @@ strong { font-weight: 500; }
 .sidebar ul li a:hover,
 .sidebar ul li a:focus,
 .sidebar ul li.active > a:hover,
-.sidebar ul li.active .parlink > a:focus { outline: 0; background: #194099; color: #fff; }
+.sidebar ul li.active .parlink > a:focus { outline: 0; color: #fff; }
 
 .normal:hover {
 	outline: 0; 
