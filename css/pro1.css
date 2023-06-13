@@ -6,8 +6,13 @@
 	height: 65vh;
 }
 .pro-service{
-	padding-top: 16rem;
-	padding-bottom: 10rem;
+	padding-top: 10rem;
+    padding-bottom: 6rem;
+
+}
+
+.pro-contact {
+	margin-left: 14%;
 }
 .service-head{
 	padding: 0rem 0rem;
@@ -25,7 +30,7 @@
 
 
 .pro2-bg-img{
-	background-image: url('../img/pro1/pro2-bg.png');
+	background-image: url('../img/pro1/pro2-bg.svg');
 	
 	background-size: cover;
 	background-repeat: no-repeat;
