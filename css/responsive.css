@@ -25,6 +25,7 @@ html {
 }
 
 
+
 .img-d{
 	opacity: 1;
 }
@@ -36,6 +37,16 @@ html {
 .parti{
 	height: 70vh;
 }
+	
+
+	.home-bg1{
+		height: 63vh;
+	}
+	/*	particuiler */
+	.parti{
+		height: 70vh;
+	}
+
 /*	pro1*/
 .pro1{
 	height: 55vh;
