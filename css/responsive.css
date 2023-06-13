@@ -126,11 +126,24 @@ html {
 	margin: 0 !important;
 }
 
+.size{
+	font-size: 10px
+}
+
+.img-h .img2 {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 147px;
+    z-index: 99;
+    min-width: 56%;
+}
 
 .service-detail-box{
-	width: 683px;
+	width: 433px;
 	height: 130px;
 	margin: 0;
+	margin-left: 18%!important;
 }
 
 .service-detail .col-lg-4{
@@ -183,6 +196,11 @@ html {
 }
 .side{
 	display: inline;
+}
+
+.service-box {
+	width: 50%;
+    margin-left: 26%;
 }
 
 }
@@ -259,6 +277,7 @@ padding-top:23%;
 .footer-icon2{
 	display: flex !important;
 }
+
 
 
 
@@ -531,6 +550,15 @@ flex-wrap: nowrap;
 		.iw {
 			width: 27px!important;
 			height: auto!important;
+		}
+
+		.img-h .img2 {
+			display: none;
+			position: absolute;
+			top: -1px;
+			left: 0px;
+			z-index: 99;
+			min-width: 55%;
 		}
 
 }
