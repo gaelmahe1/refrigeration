@@ -167,7 +167,7 @@ ul li a button{
 /*Home background1 start*/
 
 .home-bg1{
-	background-image: url('../img/home/slider.png');
+	background-image: url('../img/home/slider.webp');
 	
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -605,4 +605,10 @@ ul li a button{
 		color: #194099 !important;
 		background: transparent !important;
 		
+	}
+
+	
+
+	.spon{
+		width: 80%;
 	}

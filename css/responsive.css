@@ -98,6 +98,7 @@ html {
 
 
 }
+
 @media (max-width: 991.98px) { 
 
 	.service-head {
@@ -143,7 +144,6 @@ html {
 	width: 433px;
 	height: 130px;
 	margin: 0;
-	margin-left: 18%!important;
 }
 
 .service-detail .col-lg-4{
@@ -450,9 +450,7 @@ flex-wrap: nowrap;
 
 .service-detail-box {
 	width: auto;
-	margin: 0;
-	margin-right: 9%;
-	padding: 5%;
+	margin-right: 8%;
 }
 
 .map-sm{

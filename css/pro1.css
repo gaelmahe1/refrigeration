@@ -1,5 +1,5 @@
 .pro1{
-	background-image: url('../img/home/slider.png');
+	background-image: url('../img/home/slider.webp');
 	
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -30,14 +30,14 @@
 
 
 .pro2-bg-img{
-	background-image: url('../img/pro1/pro2-bg.svg');
+	background-image: url('../img/pro1/pro2-bg.webp');
 	
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 70vh;
 }
 .pro2-img{
-	background-image: url('../img/pro1/homebg.svg');
+	background-image: url('../img/pro1/homebg.webp');
 	
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 
 /*pro3 start*/
 .pro3-bg-img{
-	background-image: url('../img/pro1/pro1bg.svg');
+	background-image: url('../img/pro1/pro1bg.webp');
 	
 	background-size: cover;
 	background-repeat: no-repeat;
