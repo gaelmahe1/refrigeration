@@ -111,6 +111,7 @@ html {
 }
 
 
+
 .top{
 	display: inline;
 }
@@ -119,7 +120,7 @@ html {
 }
 
 .map {
-	margin-right: 12%;
+	margin-right: -5%;
 	margin-top: 5%;
 }
 
@@ -134,14 +135,14 @@ html {
 .img-h .img2 {
 	display: none;
     position: absolute;
-    top: 0;
-    left: 147px;
+    top: -1;
+    left: 0px;
     z-index: 99;
     min-width: 56%;
 }
 
 .service-detail-box{
-	width: 433px;
+	width: 681px;
 	height: 130px;
 	margin: 0;
 }
@@ -153,7 +154,8 @@ html {
 	text-align: center;
 }
 .logo-center-sm{
-	text-align: center;
+	text-align: left;
+	margin-bottom: 6%;
 }
 .img-middle img{
 	margin: 2rem 0rem;
@@ -166,11 +168,11 @@ html {
 	margin-top: 2rem;
 }
 .home-bg1{
-	height: 51vh;
+	height: 34vh;
 }
 /*	particuiler */
 .parti{
-	height: 58vh;
+	height: 37vh;
 }
 .particuiler-s2{
 	text-align: center;
@@ -186,10 +188,10 @@ html {
 }
 /*		pro2*/
 .pro2-bg-img{
-	height: 70vh;
+	height: 37vh;
 }
 .pro3-bg-img{
-	height: 48vh;
+	height: 36vh;
 }
 .top{
 	display: none;
@@ -472,7 +474,7 @@ flex-wrap: nowrap;
 	/*	contact*/
 		
 			.contact-bg-sm{
-				height: 45vh;
+				height: 39vh;
 			}
 
 	/*	    pro1*/
@@ -559,4 +561,13 @@ flex-wrap: nowrap;
 			min-width: 55%;
 		}
 
+}
+
+.wow {
+	width: 96%!important;
+	margin-left: 31%;
+}
+
+.wow1 {
+	width: 80%!important;
 }
