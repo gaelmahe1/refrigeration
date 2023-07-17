@@ -158,9 +158,10 @@ html {
 }
 
 .service-detail-box{
-	width: 681px;
-	height: 130px;
-	margin: 0;
+	width: 408px;
+    height: 130px;
+    margin: 0;
+    margin-left: 20%;
 }
 
 .service-detail .col-lg-4{
@@ -467,8 +468,8 @@ flex-wrap: nowrap;
 }
 
 .service-detail-box {
-	width: auto;
-	margin-right: 8%;
+	width: 93%;
+	margin: 0;
 }
 
 .map-sm{
