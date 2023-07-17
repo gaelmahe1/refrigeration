@@ -111,6 +111,22 @@ html {
 }
 
 
+.ff2 {
+	width:52%;
+}
+
+.ichi {
+	flex-direction: column !important;
+}
+
+#title {
+	width: 34% ;
+}
+
+.title {
+	width: 34% ;
+}
+
 
 .top{
 	display: inline;
@@ -168,11 +184,11 @@ html {
 	margin-top: 2rem;
 }
 .home-bg1{
-	height: 34vh;
+	height: 38vh;
 }
 /*	particuiler */
 .parti{
-	height: 37vh;
+	height: 42vh;
 }
 .particuiler-s2{
 	text-align: center;
@@ -188,10 +204,10 @@ html {
 }
 /*		pro2*/
 .pro2-bg-img{
-	height: 37vh;
+	height: 42vh;
 }
 .pro3-bg-img{
-	height: 36vh;
+	height: 42vh;
 }
 .top{
 	display: none;
@@ -536,7 +552,7 @@ flex-wrap: nowrap;
 
 		.pro-service {
 		margin-top: 0rem !important;
-		margin-left: -13%;
+		margin-left: 3%;
 		}
 
 		.contact-text ul {
