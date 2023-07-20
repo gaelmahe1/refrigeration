@@ -398,8 +398,9 @@ ul li a button{
 	justify-content: end;
 }
 .foter-mbl{
-		justify-content: end;
-		
+		justify-content: right;
+		align-items: right;
+		margin-left: 45%;
 	}
 
 /*img hover*/

@@ -112,7 +112,7 @@ html {
 
 
 .ff2 {
-	width:52%;
+	width:62%;
 }
 
 .ichi {
@@ -262,6 +262,10 @@ html {
 		height: 44vh;
 	}
 
+
+
+
+
 /*	    pro1*/
 	.pro-service{
 		text-align: center;
@@ -307,6 +311,10 @@ padding-top:23%;
 /*html {
 	  font-size: 50%; 
 }*/
+
+.foter-mbl {
+	margin-left: 0 !important;
+}
 .footer{
 	text-align: center;
 }
@@ -381,6 +389,9 @@ padding-top:23%;
 }
 @media (max-width: 499px) {
 
+.foter-mbl {
+		margin-left: 0 !important;
+	}
 
 .modif {
 display: flex;
@@ -468,7 +479,7 @@ flex-wrap: nowrap;
 }
 
 .service-detail-box {
-	width: 93%;
+	width: 92%;
 	margin: 0;
 }
 
@@ -553,7 +564,11 @@ flex-wrap: nowrap;
 
 		.pro-service {
 		margin-top: 0rem !important;
-		margin-left: 3%;
+		margin-left: -14%;
+		}
+
+		.case2 {
+			margin-left: 3% !important;
 		}
 
 		.contact-text ul {
