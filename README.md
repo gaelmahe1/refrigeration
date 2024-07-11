@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-<a href="https://www.dl-refrigeration.com/">
+<a href="https://www.dl-refrigeration.com/" target="_blanc">
   <img width="1440" alt="Screenshot 2024-07-11 at 10 25 17" src="https://github.com/gaelmahe1/refrigeration/assets/98271667/7f187e22-e043-46ee-8fbd-171cf592f338">
 </a>
   <br />
